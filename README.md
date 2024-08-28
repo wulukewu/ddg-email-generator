@@ -1,7 +1,7 @@
 
 # Temporary Email Generator
 
-A simple Python script that generates temporary email addresses using the DuckDuckGo Email Protection API. The generated email is automatically copied to your clipboard, allowing for quick and easy use. Bind the script to a keyboard shortcut for instant access when signing up for new accounts or services.
+A simple Python script that generates temporary email addresses using the DuckDuckGo Email Protection API and copies to your clipboard. Bind the script to a keyboard shortcut for instant access when signing up for new accounts or services.
 
 ## Prerequisites
 
