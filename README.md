@@ -1,4 +1,3 @@
-
 # Temporary Email Generator
 
 A simple Python script that generates temporary email addresses using the DuckDuckGo Email Protection API and copies to your clipboard. Bind the script to a keyboard shortcut for instant access when signing up for new accounts or services.
@@ -13,6 +12,13 @@ Create a `.env` file in the same directory as the script and add your DuckDuckGo
 
 You can find this by going to https://duckduckgo.com/email/settings/autofill and inspecting the network requests when generating a new email address.
 
+## Installing Dependencies
+
+To run the script, you need to install the required Python packages. Use the following command to install them:
+
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Setting Up a Keyboard Shortcut
 
