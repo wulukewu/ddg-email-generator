@@ -27,4 +27,3 @@ def generate_temp_email():
 
 if __name__ == "__main__":
     generate_temp_email()
-
