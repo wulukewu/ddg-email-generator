@@ -9,6 +9,7 @@ load_dotenv()
 # Get the DuckDuckGo Access Token from environment variable
 ACCESS_TOKEN = os.getenv('DUCKDUCKGO_ACCESS_TOKEN')
 
+
 def generate_temp_email():
     url = "https://quack.duckduckgo.com/api/email/addresses"
     headers = {
@@ -23,5 +24,7 @@ def generate_temp_email():
     else:
         print(f"Error: {response.status_code} - {response.text}")
 
+
 if __name__ == "__main__":
     generate_temp_email()
+
